@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+      <!-- adding the header page -->
+      <div class="header">
+        <h1><u>My Homepage</u></h1>
+      </div>
+      <!-- adding accordion to page -->
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Links
+              </button>
+            </h2>
+            <!-- this is accordion 1 -->
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p><span class="tab"></span><strong>LINKS TO MY <a href = "personal.html">PRIVATE LIFE</a>, <a href = "career.html">CAREER</a>, AND <a href = "achievement.html">ACHIEVEMENTS</a>.</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Fun Facts about me
+              </button>
+            </h2>
+            <!-- this is accordion 2 -->
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p><span class="tab"></span><strong>I like being alone with my workout equipments rather than hanging out.</strong> Sometimes, I just prefer having my own company since i'm not productive whenever i'm with people. Moreover, it's kind of hard to trust anyone this days.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Ultimate Goal
+              </button>
+            </h2>
+            <!-- this is accordion 3 -->
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p><span class="tab"></span><strong>To build an empire.</strong> Friends are great, but to have followers and the respect of the many is another. That's why building an empire or community is my greatest goal.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- adding footer -->
+        <div class="footer">
+          <div id="social-media-profile">
+            <!-- showing the picture and link to my github and linkedin account -->
+            <img src = "logol.png" width="38" height="38" alt="linkedin logo">
+            <a href = "https://www.linkedin.com/in/miguel-tolentino-9b25a3253/"><b>Linkedin</b></a>
+            <img src = "25231.png"  width="36" height="36" alt="github logo">
+            <a href = "https://github.com/mkas020103"><b>Github</b></a>
+          </div>
+        </div>
+    </body>
+</html>
